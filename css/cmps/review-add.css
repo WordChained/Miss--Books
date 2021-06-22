@@ -1,0 +1,14 @@
+.review-add form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* width: 400px; */
+}
+
+.review-add form input {
+    width: 200px;
+}
+
+.review-add form button {
+    width: 130px;
+}

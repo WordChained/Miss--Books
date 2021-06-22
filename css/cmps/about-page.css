@@ -1,0 +1,19 @@
+.my-img {
+    border-radius: 10px;
+    object-fit: contain;
+    height: 300px;
+}
+
+.my-details {
+    font-size: 1.5rem;
+}
+
+.contacts {
+    padding: 5px;
+    color: brown;
+    font-weight: 600;
+}
+
+.contacts a {
+    color: gold;
+}

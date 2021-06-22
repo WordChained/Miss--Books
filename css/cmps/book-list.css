@@ -1,0 +1,99 @@
+/* book list */
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.actions {
+    margin-top: 5px;
+}
+
+a.details-link {
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    height: 23px;
+    width: 70px;
+    color: #3e3e3e;
+    transition: background-color 0.6s, color 0.6s
+}
+
+.actions button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: 900;
+    background-color: transparent;
+    border: gold 1px solid;
+    border-radius: 10px;
+    outline: none;
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.book-preview-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: darkgoldenrod 1px solid;
+    list-style: none;
+    padding: 15px;
+    justify-content: space-between;
+    min-height: 300px;
+    width: 400px;
+    font-size: large;
+    background-color: rgba(139, 0, 0, 0.794);
+    box-shadow: 5px 5px 0px 0px #e7d363f5, 10px 10px 0px 0px #edcf28, 15px 15px 0px 0px #e7d363f5, 20px 20px 0px 0px #edcf28, 25px 25px 0px 0px rgba(139, 0, 0, 0.794), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    /* margin-bottom: 20px; */
+}
+
+.book-preview-container p {
+    margin: 0;
+}
+
+.book-preview-container .top-details {
+    margin-bottom: 5px;
+}
+
+
+/* .book-preview-container .description {} */
+
+.btn-word-limit {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.book-preview {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* margin-bottom: 40px; */
+    padding: 0
+}
+
+.book-preview-container .expensive {
+    color: red;
+}
+
+.book-preview-container .cheap {
+    color: green;
+}
+
+.sale {
+    position: absolute;
+    height: 60px;
+    bottom: 5px;
+    right: 5px;
+}
+
+a.details-link:hover {
+    background-color: gold;
+    color: brown;
+    font-weight: 900;
+}

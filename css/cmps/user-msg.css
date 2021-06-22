@@ -1,0 +1,11 @@
+.user-msg {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: brown;
+    color: gold;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
